@@ -1,0 +1,19 @@
+CUSTOMERS
+- customer_id
+- name
+- phone
+- email
+
+ACCOUNTS
+- account_id
+- account_number
+- account_type
+- balance
+- customer_id
+
+TRANSACTIONS
+- transaction_id
+- account_id
+- transaction_type
+- amount
+- transaction_date
